@@ -1,0 +1,116 @@
+.form-table input[type="checkbox"],
+.form-table input[type="radio"] {
+  vertical-align: text-top;
+  padding: 0;
+  margin: 3px 0 0;
+}
+
+.form-table strong {
+  color: #333;
+}
+
+.form-table label {
+  color: #666;
+}
+
+.form-table {
+  color: #666;
+}
+
+.description {
+  font-style: italic;
+}
+
+/*===========  =====================*/
+
+textarea {
+  width: 350px;
+  height: 250px;
+}
+
+.ui-tabs-nav {
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding-top: 9px;
+  padding-bottom: 0;
+  line-height: inherit;
+  height: 28px;
+}
+
+.ui-tabs-nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+.ui-tabs-nav li a {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  margin-left: 0.5em;
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  background: #e5e5e5;
+  color: #555;
+  text-decoration: none;
+}
+
+.ui-tabs-nav li a:hover {
+  background-color: #fff;
+  color: #444;
+}
+
+.ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs-nav li.ui-state-active a {
+  color: #000;
+  border-top: 2px solid #f6a828;
+  border-bottom: 1px solid #f1f1f1;
+  background: #f1f1f1;
+  color: #000;
+}
+
+.ui-tabs-panel {
+  clear: both;
+}
+
+.ui-tabs-panel h3 {
+  font: italic normal normal 24px/29px Georgia, "Times New Roman",
+    "Bitstream Charter", Times, serif;
+  margin: 0;
+  padding: 0 0 5px;
+  line-height: 35px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ui-tabs-panel h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.wrap h3,
+.wrap table {
+  display: none;
+}
+
+.upload-url {
+  width: 55%;
+}
+
+/*Slider Styles*/
+
+div.slider {
+  margin: 10px 0px;
+  background-color: #ccc !important;
+  width: 60%;
+}
+
+div.ui-slider-range {
+  background-color: #f9f9f9;
+}
+
+/*Image Upload*/
+
+.image-upload {
+  display: block;
+}
