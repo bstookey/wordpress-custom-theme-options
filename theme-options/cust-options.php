@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Custom theme class
- *
- * @package Wordpress
- * @since 1.0
- * 
- * 
- * 
+ * Plugin Name: Custom Theme Options
+ * Plugin URI: https://github.com/bstookey/wordpress-custom-theme-options
+ * Description: WordPress plugin helps quickly create and initialize fields for theme options. Requires edits to code
+ * Version: 1.0.0
+ * Author: Bradley Stookey
+ * License: GPLv2
  */
 
-// Include this in your functions file: require get_template_directory() . '/theme-options.cust-options.php';
+//Use as a plugin or
+// Include this in your functions file: function include_inc_files() . '/theme-options.cust-options.php';
 
 $cust_theme_settings = new Cust_Theme_Options();
 define('options_icon', 'dashicons-admin-tools'); //leave blank for generic. See https://developer.wordpress.org/resource/dashicons/#admin-tools
@@ -225,9 +225,7 @@ class Cust_Theme_Options
      *
      * @since 1.0
      */
-    public function display_section()
-    {
-    }
+    public function display_section() {}
 
     /**
      * Description for About section
